@@ -12,6 +12,28 @@
  * [Queue](./DS/Queue/MsgQueue.cs)
  * [Queue](./DS/Queue/Program.cs)
 
+### 정렬
+```cs
+List <string> li = new List<string>();
+
+// #1
+li.Sort();  // 정렬 오름차순
+
+// #2 delegate
+li.Sort(delegate (string x, stringy) {
+    return y.CompareTo(x);  // 내림차순
+});
+
+// #3 람다식
+li.Sort((string x, string y) => x.CompareTo(y));
+```
+
+### Map
+| 구분 | 내용 |
+|----|----|
+| SortedDictionary | Key로 정렬하여 저장 |
+| ConcurrentDictionary | Thread-safe하게 사용 |
+
 ## Thread
 
  * [add_in_thread](./Thread/add_in_thread.cs)
@@ -38,11 +60,24 @@
  * [DateClient](./HTTP/http_client/DateClient.cs)
  * [FileClient](./HTTP/http_client/FileClient.cs)
  * [Program](./HTTP/http_client/Program.cs)
+ * [참고링크 : MS - httpclient](https://docs.microsoft.com/ko-kr/dotnet/api/system.net.http.httpclient)
 
 ### Server
  * [MyServer](./HTTP/http_server/MyServer.cs)
  * [Program](./HTTP/http_server/Program.cs)
+ * [참고링크 : MS - http](https://docs.microsoft.com/ko-kr/dotnet/api/system.net.http)
 
 ## JSON
 
  * [JSON to File](./JSON/json_to_file.cs)
+
+## 기타
+### 애플리케이션 종료
+
+```cs
+Environment.Exit(0);
+
+// 또는
+
+Application.Exit();
+```
