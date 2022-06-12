@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32516.85
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "project", "project\project.csproj", "{99CA4508-05AD-420E-9029-ED316CF084FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "http_server", "..\HTTP\http_server\http_server.csproj", "{5380BDF1-83BF-438E-B46C-DB0F12AC1220}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSON", "..\JSON\JSON.csproj", "{4530010E-48F4-47C5-93F0-E51FD8B5AC5C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{99CA4508-05AD-420E-9029-ED316CF084FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99CA4508-05AD-420E-9029-ED316CF084FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99CA4508-05AD-420E-9029-ED316CF084FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99CA4508-05AD-420E-9029-ED316CF084FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5380BDF1-83BF-438E-B46C-DB0F12AC1220}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5380BDF1-83BF-438E-B46C-DB0F12AC1220}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5380BDF1-83BF-438E-B46C-DB0F12AC1220}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5380BDF1-83BF-438E-B46C-DB0F12AC1220}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4530010E-48F4-47C5-93F0-E51FD8B5AC5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4530010E-48F4-47C5-93F0-E51FD8B5AC5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4530010E-48F4-47C5-93F0-E51FD8B5AC5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4530010E-48F4-47C5-93F0-E51FD8B5AC5C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {31D9E000-CBAB-491F-8A41-52BC7A5E1409}
+	EndGlobalSection
+EndGlobal
