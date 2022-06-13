@@ -1,18 +1,18 @@
 # Cloud
-## 1. Kubernetes ±â¹Ý ¼Ö·ç¼Ç °¡ÀÌµå
-## 2. Serverless Computing È°¿ë °¡ÀÌµå
+## 1. Kubernetes ê¸°ë°˜ ì†”ë£¨ì…˜ ê°€ì´ë“œ
+## 2. Serverless Computing í™œìš© ê°€ì´ë“œ
 ## 3. AWS
  * [https://docs.aws.amazon.com]
 
 ### Compute
-| ÁÖÁ¦ | url |
+| ì£¼ì œ | url |
 |----|----|
 | EC2 | https://docs.aws.amazon.com/ec2/?id=docs_gateway |
 | EC2 Image Builder | https://docs.aws.amazon.com/imagebuilder/?id=docs_gateway |
 | Lambda | https://docs.aws.amazon.com/imagebuilder/?id=docs_gateway |
 
 ### Containers
-| ÁÖÁ¦ | url |
+| ì£¼ì œ | url |
 |----|----|
 | ECR | https://docs.aws.amazon.com/ecr/?id=docs_gateway |
 | ECS | https://docs.aws.amazon.com/ecs/?id=docs_gateway |
@@ -20,14 +20,14 @@
 | App2Container | https://docs.aws.amazon.com/app2container/?id=docs_gateway |
 
 ### Networking & Content Delivery
-| ÁÖÁ¦ | url |
+| ì£¼ì œ | url |
 |----|----|
 | API Gateway | https://docs.aws.amazon.com/apigateway/?id=docs_gateway |
 | VPC | https://docs.aws.amazon.com/vpc/?id=docs_gateway |
 | Route 3 | https://docs.aws.amazon.com/route53/?id=docs_gateway |
 
 ### Storage
-| ÁÖÁ¦ | url |
+| ì£¼ì œ | url |
 |----|----|
 | S3 | https://docs.aws.amazon.com/s3/?id=docs_gateway |
 | EBS | https://docs.aws.amazon.com/ebs/?id=docs_gateway |
@@ -35,12 +35,12 @@
 | S3 Glacier | https://docs.aws.amazon.com/s3/?id=docs_gateway |
 
 ### Security, Identity, & Compliance
-| ÁÖÁ¦ | url |
+| ì£¼ì œ | url |
 |----|----|
 | IAM | https://docs.aws.amazon.com/iam/?id=docs_gateway |
 
 ### Management & Governace
-| ÁÖÁ¦ | url |
+| ì£¼ì œ | url |
 |----|----|
 | CloudFormation | https://docs.aws.amazon.com/cloudformation/?id=docs_gateway |
 | CloudWatch | https://docs.aws.amazon.com/cloudwatch/?id=docs_gateway |
@@ -50,48 +50,48 @@
 ## 4. GCP
  * [https://cloud.google.com/docs/]
 
-### ÄÄÇ»ÆÃ
-| ÁÖÁ¦ | url |
+### ì»´í“¨íŒ…
+| ì£¼ì œ | url |
 |----|----|
 | Compute Engine | https://cloud.google.com/compute/docs |
-| ¼±Á¡Çü VM | * |
-| º¸¾È VM | * |
+| ì„ ì í˜• VM | * |
+| ë³´ì•ˆ VM | * |
 
-### ÄÁÅ×ÀÌ³Ê
-| ÁÖÁ¦ | url |
+### ì»¨í…Œì´ë„ˆ
+| ì£¼ì œ | url |
 |----|----|
 | Google Kubernetes Engine(GKE) | https://cloud.google.com/kubernetes-engine/docs |
-| Container Registry(Artifact Registry·Î ÀüÈ¯ Ãß¼¼) | https://cloud.google.com/container-registry/docs |
+| Container Registry(Artifact Registryë¡œ ì „í™˜ ì¶”ì„¸) | https://cloud.google.com/container-registry/docs |
 
-### ³×Æ®¿öÅ·
-| ÁÖÁ¦ | url |
+### ë„¤íŠ¸ì›Œí‚¹
+| ì£¼ì œ | url |
 |----|----|
 | Virtual Private Cloud(VPC) | https://cloud.google.com/vpc/docs |
 | Cloud Router | https://cloud.google.com/network-connectivity/docs/router |
 | Cloud NAT | https://cloud.google.com/nat/docs |
 | Cloud Load Balancing | https://cloud.google.com/load-balancing/docs |
 
-### º¸¾È ¹× ID
-| ÁÖÁ¦ | url |
+### ë³´ì•ˆ ë° ID
+| ì£¼ì œ | url |
 |----|----|
 | Identity and Access Management(IAM) | https://cloud.google.com/iam/docs |
 | Resource Manager | https://cloud.google.com/resource-manager/docs |
-| º¸¾È VM | * |
-| VPC ¼­ºñ½º Á¦¾î | https://cloud.google.com/vpc-service-controls/docs |
+| ë³´ì•ˆ VM | * |
+| VPC ì„œë¹„ìŠ¤ ì œì–´ | https://cloud.google.com/vpc-service-controls/docs |
 | Cloud Key Management Service | https://cloud.google.com/kms/docs |
 
-### ¼­¹ö¸®½º ÄÄÇ»ÆÃ
-| ÁÖÁ¦ | url |
+### ì„œë²„ë¦¬ìŠ¤ ì»´í“¨íŒ…
+| ì£¼ì œ | url |
 |----|----|
 | Cloud Functions | https://cloud.google.com/functions/docs |
 | Cloud Run | https://cloud.google.com/run/docs |
 
-### °ü¸®µµ±¸
-| ÁÖÁ¦ | url |
+### ê´€ë¦¬ë„êµ¬
+| ì£¼ì œ | url |
 |----|----|
 | Cloud Console | * |
 | Cloud Shell | https://cloud.google.com/shell/docs |
-| ºñ¿ë °ü¸®(-> Cloud Billing) | https://cloud.google.com/billing/docs |
+| ë¹„ìš© ê´€ë¦¬(-> Cloud Billing) | https://cloud.google.com/billing/docs |
 | Cloud APIs | https://cloud.google.com/apis/docs/overview |
 
 ## 5. Azure

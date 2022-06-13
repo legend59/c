@@ -3,8 +3,8 @@
 # c
 ## FileIO
 
- * [AllDirectories - ÇÏÀ§ ¸ğµç Æú´õ Á¶È¸](./FileIO/AllDirectories/Program.cs)
- * [CopyAllFiles - Æú´õ º¹»ç](./FileIO/CopyAllFiles/FileIO.cs)
+ * [AllDirectories - í•˜ìœ„ ëª¨ë“  í´ë” ì¡°íšŒ](./FileIO/AllDirectories/Program.cs)
+ * [CopyAllFiles - í´ë” ë³µì‚¬](./FileIO/CopyAllFiles/FileIO.cs)
 
 ## DS(Data Structure)
 
@@ -12,27 +12,27 @@
  * [Queue](./DS/Queue/MsgQueue.cs)
  * [Queue](./DS/Queue/Program.cs)
 
-### Á¤·Ä
+### ì •ë ¬
 ```cs
 List <string> li = new List<string>();
 
 // #1
-li.Sort();  // Á¤·Ä ¿À¸§Â÷¼ø
+li.Sort();  // ì •ë ¬ ì˜¤ë¦„ì°¨ìˆœ
 
 // #2 delegate
 li.Sort(delegate (string x, stringy) {
-    return y.CompareTo(x);  // ³»¸²Â÷¼ø
+    return y.CompareTo(x);  // ë‚´ë¦¼ì°¨ìˆœ
 });
 
-// #3 ¶÷´Ù½Ä
+// #3 ëŒë‹¤ì‹
 li.Sort((string x, string y) => x.CompareTo(y));
 ```
 
 ### Map
-| ±¸ºĞ | ³»¿ë |
+| êµ¬ë¶„ | ë‚´ìš© |
 |----|----|
-| SortedDictionary | Key·Î Á¤·ÄÇÏ¿© ÀúÀå |
-| ConcurrentDictionary | Thread-safeÇÏ°Ô »ç¿ë |
+| SortedDictionary | Keyë¡œ ì •ë ¬í•˜ì—¬ ì €ì¥ |
+| ConcurrentDictionary | Thread-safeí•˜ê²Œ ì‚¬ìš© |
 
 ## Thread
 
@@ -60,24 +60,25 @@ li.Sort((string x, string y) => x.CompareTo(y));
  * [DateClient](./HTTP/http_client/DateClient.cs)
  * [FileClient](./HTTP/http_client/FileClient.cs)
  * [Program](./HTTP/http_client/Program.cs)
- * [Âü°í¸µÅ© : MS - httpclient](https://docs.microsoft.com/ko-kr/dotnet/api/system.net.http.httpclient)
+ * [ì°¸ê³ ë§í¬ : MS - httpclient](https://docs.microsoft.com/ko-kr/dotnet/api/system.net.http.httpclient)
 
 ### Server
  * [MyServer](./HTTP/http_server/MyServer.cs)
  * [Program](./HTTP/http_server/Program.cs)
- * [Âü°í¸µÅ© : MS - http](https://docs.microsoft.com/ko-kr/dotnet/api/system.net.http)
+ * [ì°¸ê³ ë§í¬ : MS - http](https://docs.microsoft.com/ko-kr/dotnet/api/system.net.http)
 
 ## JSON
 
  * [JSON to File](./JSON/json_to_file.cs)
+ * [https://devstarsj.github.io/development/2016/06/11/CSharp.NewtonJSON/]
 
-## ±âÅ¸
-### ¾ÖÇÃ¸®ÄÉÀÌ¼Ç Á¾·á
+## ê¸°íƒ€
+### ì• í”Œë¦¬ì¼€ì´ì…˜ ì¢…ë£Œ
 
 ```cs
 Environment.Exit(0);
 
-// ¶Ç´Â
+// ë˜ëŠ”
 
 Application.Exit();
 ```
