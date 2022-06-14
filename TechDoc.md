@@ -3,6 +3,8 @@
 ## 2. Serverless Computing 활용 가이드
 ## 3. AWS
  * [https://docs.aws.amazon.com]
+## 4. Ai letter
+ * [https://github.com/wckang2149/capi/AI_LETTER.pdf]
 
 ### Compute
 | 주제 | url |
