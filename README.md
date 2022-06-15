@@ -177,3 +177,7 @@ Console.WriteLine(strTest2);
 // 출력
 ABCD123
 ```
+
+## 관련링크
+ * [pjs0114v https://blog.naver.com/pjs0114v]
+ * [shu777 https://github.com/shu777]
