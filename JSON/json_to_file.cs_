@@ -78,6 +78,11 @@ namespace JsonTest
                 Console.WriteLine("name(age) : {0}", jo["vaccine"].GetType());
                 Console.WriteLine("name(age) : {0}", jo["age"].ToObject<int>());
 
+                // JSON Array
+                // static List<String> list_inputQueueURIs;
+                // var inputQueueURIs = objects["inputQueueURIs"].Value<JArray>();
+                // list_inputQueueURIs = inputQueueURIs.ToObject<List<String>>();
+
                 foreach (KeyValuePair<string, JToken> itemJo in jo)
                 {
                     Console.WriteLine("Key : " + itemJo.Key + " / Value Type : " + itemJo.Value.Type);
