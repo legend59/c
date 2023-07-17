@@ -20,5 +20,25 @@ namespace SP_TEST
             JObject json2 = JObject.Parse(jsonstr);
             Console.WriteLine($"Name : {json2["name"]}, Salary : {json2["salary"]}");
         }
+
+        public static Root UseJsonConverter(string jsonFilePath)
+        {
+            if (File.Exists(jsonFilePath))
+            {
+                jsonFilePath = File.ReadAllText(jsonFilePath);
+            }
+
+            return JsonConvert.DeserializeObject<Root>(jsonFilePath);
+        }
+
+        public static T UseJsonConverter<T>(string jsonFilePath)
+        {
+            if (File.Exists(jsonFilePath))
+            {
+                jsonFilePath = File.ReadAllText(jsonFilePath);
+            }
+
+            return JsonConvert.DeserializeObject<T>(jsonFilePath);
+        }
     }
 }
